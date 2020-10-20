@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.block{
+    width:90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    color:#fff;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.block .name{
+    font-size: 35px;
+    margin-top: 20px;
+}
+.block .dates{
+    display: flex;
+}
+.dates .date{
+    padding: 4px;
+    font-size: 18px;
+}
+.details{
+    display:flex;
+
+}
+.middle{
+    display: flex;
+    padding: 10px;
+    width: 45%;
+    margin-top: 10vh;
+
+}
+.middle .middle_right{
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;
+    padding: 0px 10px 10px 20px;
+}
+.middle_right .temp{
+    font-size: 100px;
+}
+.bottom{
+    display: flex;
+    padding:40px 0px;
+    background: rgba(255,255,255, 0.2);
+    border-radius: 10px;
+    margin-top: 10vh;
+    width:50%;
+    justify-content: space-between;
+  
+    
+}
+.list{
+    display: flex;
+}
+.bottom .box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+
+h3{
+    padding: 5px;
+    margin: 0%;
+}
+.icon{
+    font-size: 10em;
+}
+@media only screen and (max-width:600px){
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .block {
+       
+        margin-top: 5px;
+    }
+    .icon{
+        font-size: 4em;
+    }
+    .middle{
+        margin-top: 2vh;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+     
+    }  
+    .middle .middle_right{
+       padding: 5px;
+        font-size: 20px;
+    }
+    .middle_right .temp{
+        font-size: 40px;
+    }
+    .bottom{
+        width: 98%;
+        padding: 5px 0px;
+        margin-top: 2vh;
+    }
+    .bottom .box{
+        padding:10px;
+    }
+}

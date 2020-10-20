@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+.app{
+  display: block;
+  background-image: url('img/2850815.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height:100vh;
+  width: 100%;
+  font-family: 'Rubik', sans-serif;
+  padding-top: 0vh;
+}
+.app .header{
+  display:flex;
+  justify-content: space-around;
+  color:#fff;
+  padding:20px;
+  font-size: 30px;
+  padding-top: 25vh;
+ 
+}
+.app .move{
+  display:flex;
+  justify-content: space-around;
+  color:#fff;
+  padding:20px;
+  font-size: 30px;
+  
+ 
+}
+.app .app_top{
+  margin-top: 5vh;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  width: 40%;
+  margin-left: 30%;
+  background-color: #fff;
+  vertical-align: middle;
+  padding:12px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: ease 0.3s;
+}
+
+.app .app_top input{
+  color: #444444;
+  background: transparent;
+ cursor: auto;
+ font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  border: none;
+}
+.app .app_top input:focus{
+  border: none;
+}
+.app .move input{
+  color: #444444;
+  background: transparent;
+ cursor: auto;
+ font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  border: none;
+}
+center{
+  padding: 30px;
+  color:#fff;
+}
+.link {
+  color:#fff;
+  margin: 5px;
+  text-shadow: #444444;
+ 
+}
+
+@media only screen and (max-width:600px){
+  .app .app_top{
+ width:70%;
+ margin-left: 13%;
+ margin-top: 2vh;
+  }
+ 
+}
